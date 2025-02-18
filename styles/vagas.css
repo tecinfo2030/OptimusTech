@@ -1,41 +1,50 @@
-.careers {
+.job-listings {
     
-    display: flex;
     font-family: var(--fonte-principal);
-    padding: 6em 5em 6em 5em;
-    gap: 64px;
+    
+ }
+
+.job-listings__categories {
+    
+    padding: 0 16em;
+    margin-bottom: 4em;
 
  }
 
-.careers__subtitle {
-    
-    color: var(--cor-destaque);
-    font-size: .8em;
+.job-listings__category-title {
+   
     font-weight: 500;
-    line-height: 1.25em;
-    text-align: center;
-
- }
-
-.careers__title {
-
-    font-weight: 600;
-    font-size: 2.25em;
-    line-height: 2.7em;
-    text-align: center;
-
- }
-
-.careers__description { 
-    
-    color: var(--cor-secundaria);
-    font-weight: 400;
     font-size: 1.25em;
     line-height: 1.8em;
-    text-align: center;
+    margin-bottom: 2em;
 
-}
+ }
 
-.careers__image { 
-    margin: 4em 0;
-}
+.job-item {
+
+    border: 1px solid var(--cor-borda);
+    border-radius: 1em;
+    padding: 1.5em 1.5em 1.75em 1.5em;
+    margin-bottom: 2em;
+
+ }
+
+.job-item__role {
+
+    font-weight: 500;
+    font-size: 1.125em;
+    line-height: 1.75em;
+    margin-bottom: 2em;
+
+ }
+
+.job-item__info {
+    
+    display: inline-flex;
+    color: var(--cor-secundaria);
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.5em;
+    gap: 1.5em;
+
+ }
