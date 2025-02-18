@@ -1,0 +1,35 @@
+.metrics {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    font-family: var(--fonte-principal);
+    padding: 0 3em 6em 3em; 
+    gap: 2em;
+}
+
+.metrics__item {
+    /* text-align: center; */
+}
+
+.metrics__value {
+    color: var(--cor-destaque);
+    font-size: 3.75em;
+    font-weight: 600;
+    line-height: 1.5em;
+
+}
+
+.metrics__title {
+    color: var(--cor-terciária);
+    font-weight: 500;
+    font-size: 1.125em;
+    line-height: 1.7em;
+
+}
+
+.metrics__description {
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+}
