@@ -1,6 +1,7 @@
 @import url(../styles/menu.css);
 @import url(../styles/intro.css);
 @import url(../styles/metrics.css);
+@import url(../styles/vagas.css);
 
 :root {
     --cor-primaria: #FFFFFF;

@@ -1,0 +1,41 @@
+.careers {
+    
+    display: flex;
+    font-family: var(--fonte-principal);
+    padding: 6em 5em 6em 5em;
+    gap: 64px;
+
+ }
+
+.careers__subtitle {
+    
+    color: var(--cor-destaque);
+    font-size: .8em;
+    font-weight: 500;
+    line-height: 1.25em;
+    text-align: center;
+
+ }
+
+.careers__title {
+
+    font-weight: 600;
+    font-size: 2.25em;
+    line-height: 2.7em;
+    text-align: center;
+
+ }
+
+.careers__description { 
+    
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.8em;
+    text-align: center;
+
+}
+
+.careers__image { 
+    margin: 4em 0;
+}
