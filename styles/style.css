@@ -3,6 +3,7 @@
 @import url(../styles/metrics.css);
 @import url(../styles/carreiras.css);
 @import url(../styles/vagas.css);
+@import url(../styles/depoimentos.css);
 
 :root {
     --cor-primaria: #FFFFFF;
@@ -10,6 +11,7 @@
     --cor-terciária: #101828; 
     --cor-destaque: #8E2424;
     --cor-borda: #EAECF0; 
+    --cor-destaque-bg: #C3191905 ; 
     
 
     --fonte-principal: "Inter", sans-serif;

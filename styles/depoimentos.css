@@ -1,0 +1,70 @@
+.testimonial {
+    
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-principal);
+    padding: 0 1em;
+
+}
+
+.testimonial__content {
+    
+    padding: 4em 2em;
+    background-color: var(--cor-destaque-bg);
+    width: 90%;
+    gap: 2em;
+    text-align: center;
+
+ }
+
+.testimonial__title {
+    
+    color: var(--cor-destaque);
+    font-size: 0.875em;
+    font-weight: 600;
+    line-height: 1.25em;
+    text-align: center;
+    margin-bottom: 1em;
+
+ }
+
+.testimonial__quote { 
+
+    font-size: 2.25em;
+    font-weight: 500;
+    line-height: 1.25em;
+    text-align: center;
+
+}
+
+.testimonial__author { 
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2em;
+    gap: .25em;
+
+
+}
+
+.testimonial__name {
+    
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: center;
+    
+
+ }
+
+
+.testimonial__role {
+
+    color: var(--cor-secundaria);
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.25em;
+
+ }
